@@ -1,7 +1,7 @@
 # quote-of-the-day-demo
 
 ## Overview
-Add a refresh button to load a new random quote without reloading the page and slightly style the layout using CSS.
+it is not generating anything even when clicked on the button. inspect the index.html file properly and check if the logic inside script tag is linked with the corresponding html tags properly or not. if not, then fix it to make it as when the button is pressed, it should generate a new quote
 
 **Round:** 2  
 **Status:** ✅ Successfully Generated
@@ -9,12 +9,12 @@ Add a refresh button to load a new random quote without reloading the page and s
 ## Features
 - Enhanced version with updates from Round 2
 - Maintains backward compatibility with previous functionality
-- New features as per requirements: Add a refresh button to load a new random quote without reloading the page and slightly style the la...
+- New features as per requirements: it is not generating anything even when clicked on the button. inspect the index.html file properly ...
 
 ## Technical Details
 - **HTML5** with semantic markup
 - **Inline CSS** for styling (~100 lines estimated)
-- **Vanilla JavaScript** for functionality (~12 lines)
+- **Vanilla JavaScript** for functionality (~19 lines)
 - **No external dependencies** - runs completely offline
 
 ## Setup & Usage
@@ -60,7 +60,7 @@ The application uses vanilla JavaScript for all interactivity:
 ## Development Notes
 
 ### Round 2 Changes
-Add a refresh button to load a new random quote without reloading the page and slightly style the layout using CSS.
+it is not generating anything even when clicked on the button. inspect the index.html file properly and check if the logic inside script tag is linked with the corresponding html tags properly or not. if not, then fix it to make it as when the button is pressed, it should generate a new quote
 
 ### Future Improvements
 - Further feature enhancements based on user feedback
@@ -73,4 +73,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Generated
 - **Round:** 2
 - **Generated:** Automatically via AI
-- **File Size:** 2098 bytes
+- **File Size:** 2776 bytes

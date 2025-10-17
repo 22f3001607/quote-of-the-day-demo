@@ -54,11 +54,18 @@
         <button class="new-quote-button" id="new-quote">Get New Quote</button>
     </div>
     <script>
-        async function fetchQuote() {
-            const response = await fetch('https://api.quotable.io/random');
-            const data = await response.json();
-            document.getElementById('quote').innerText = data.content;
-            document.getElementById('author').innerText = `— ${data.author}`;
+        function fetchQuote() {
+            const quotes = [
+                { content: "The greatest glory in living lies not in never falling, but in rising every time we fall.", author: "Nelson Mandela" },
+                { content: "The way to get started is to quit talking and begin doing.", author: "Walt Disney" },
+                { content: "Life is what happens when you're busy making other plans.", author: "John Lennon" },
+                { content: "Get busy living or get busy dying.", author: "Stephen King" },
+                { content: "You have within you right now, everything you need to deal with whatever the world can throw at you.", author: "Brian Tracy" },
+            ];
+            const randomIndex = Math.floor(Math.random() * quotes.length);
+            const randomQuote = quotes[randomIndex];
+            document.getElementById('quote').innerText = randomQuote.content;
+            document.getElementById('author').innerText = `— ${randomQuote.author}`;
         }
 
         document.getElementById('new-quote').addEventListener('click', fetchQuote);
