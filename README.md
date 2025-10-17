@@ -1,15 +1,15 @@
 # quote-of-the-day-demo
 
 ## Overview
-Create a webpage that displays a random inspirational quote from https://api.quotable.io/random.
+Add a refresh button to load a new random quote without reloading the page and slightly style the layout using CSS.
 
-**Round:** 1  
+**Round:** 2  
 **Status:** ✅ Successfully Generated
 
 ## Features
-- Initial implementation of quote-of-the-day-demo
-- Self-contained HTML file with inline CSS and JavaScript
-- No external dependencies
+- Enhanced version with updates from Round 2
+- Maintains backward compatibility with previous functionality
+- New features as per requirements: Add a refresh button to load a new random quote without reloading the page and slightly style the la...
 
 ## Technical Details
 - **HTML5** with semantic markup
@@ -59,8 +59,8 @@ The application uses vanilla JavaScript for all interactivity:
 
 ## Development Notes
 
-### Round 1 Changes
-Create a webpage that displays a random inspirational quote from https://api.quotable.io/random.
+### Round 2 Changes
+Add a refresh button to load a new random quote without reloading the page and slightly style the layout using CSS.
 
 ### Future Improvements
 - Further feature enhancements based on user feedback
@@ -71,6 +71,6 @@ Create a webpage that displays a random inspirational quote from https://api.quo
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Generated
-- **Round:** 1
+- **Round:** 2
 - **Generated:** Automatically via AI
 - **File Size:** 2098 bytes
